@@ -1,0 +1,32 @@
+.my-projects-ul {
+  padding: 5rem 10rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1rem;
+}
+
+.my-projects-list {
+  padding: 1rem;
+}
+
+/* .my-projects-list:hover {
+  opacity: 1;
+} */
+
+.my-project-image {
+  max-height: 200px;
+  opacity: 0.4;
+  border-radius: 20px;
+}
+
+.my-project-image:hover {
+  opacity: 1;
+}
+
+.my-projects-title {
+  margin-bottom: 1rem;
+}
+
+.my-projects-div {
+  text-align: center;
+}

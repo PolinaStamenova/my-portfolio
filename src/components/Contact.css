@@ -1,0 +1,55 @@
+.contact-page {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  /* background-color: red; */
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+.contact-text {
+  margin-top: 2rem;
+  max-width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+form {
+  margin-top: 1rem;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+input,
+textarea {
+  padding: 0.5rem 1rem;
+  font-size: 24px;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+}
+
+input {
+  border-radius: 40px;
+  border: none;
+}
+
+textarea {
+  border-radius: 20px;
+  resize: none;
+}
+
+button {
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0.5rem;
+  border-radius: 40px;
+  font-size: 24px;
+}

@@ -1,0 +1,18 @@
+.nav-panel-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 20rem;
+  font-size: 30px;
+  background-color: rgb(60, 60, 60, 0.5);
+  opacity: 0.6;
+  position: fixed;
+  z-index: 9999;
+  top: 0;
+  left: 0;
+  right: 0;
+  border-radius: 0 0 30px 30px;
+}
+
+.nav-list:hover {
+  color: #00ff00;
+}
