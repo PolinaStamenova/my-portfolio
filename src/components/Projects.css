@@ -17,10 +17,7 @@
   margin-right: auto;
   border-radius: 20px;
   padding: 1rem;
-  /* border: 1px solid white; */
-  /* filter: drop-shadow(0 0 0.2rem crimson); */
   background-color: transparent;
-  /* box-shadow: 10px 10px 5px black; */
   display: flex;
   gap: 2rem;
   font-size: 26px;
@@ -33,15 +30,9 @@
 .project-img {
   border-radius: 20px;
   padding: 0.5rem;
-  /* box-shadow: 10px 10px 5px black; */
   box-shadow: 3px 3px black, -0.5em 0 0.4em black;
-  /* opacity: 0.6; */
   height: 500px;
 }
-
-/* .project-img:hover {
-  opacity: 1;
-} */
 
 .project-content {
   margin-top: 2rem;
