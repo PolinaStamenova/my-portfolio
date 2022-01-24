@@ -42,7 +42,7 @@
 }
 
 .build-with {
-  text-shadow: 1px 1px 1px #00ff00;
+  text-shadow: 1px 1px 1px #0f0;
   color: beige;
   font-weight: bold;
   font-size: 30px;
@@ -56,7 +56,7 @@
 
 .functionality {
   margin-top: 1rem;
-  text-shadow: 1px 1px 1px #00ff00;
+  text-shadow: 1px 1px 1px #0f0;
   color: beige;
   font-weight: bold;
   font-size: 30px;

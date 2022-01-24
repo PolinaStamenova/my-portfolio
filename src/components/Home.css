@@ -12,7 +12,7 @@
 
 .change-text {
   margin-top: 1rem;
-  color: #00ff00;
+  color: #0f0;
 }
 
 .rails-container {
@@ -32,7 +32,7 @@
 }
 
 .change-text-color {
-  color: #00ff00;
+  color: #0f0;
 }
 
 .home-text-content {
@@ -50,11 +50,11 @@
 .social-media-icons {
   width: 40px;
   height: 40px;
-  color: #00ff00;
+  color: #0f0;
 }
 
 .social-links {
-  color: #00ff00;
+  color: #0f0;
 }
 
 .social-links:hover {
@@ -64,5 +64,5 @@
 .my-photo {
   max-height: 20rem;
   border-radius: 50%;
-  box-shadow: 0.5rem 0.5rem 0.5rem #00ff00;
+  box-shadow: 0.5rem 0.5rem 0.5rem #0f0;
 }
