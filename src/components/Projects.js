@@ -8,6 +8,7 @@ import { SiRubyonrails } from 'react-icons/si';
 import recipe from './recipe.JPG';
 import moneytrack from './moneytrack.JPG';
 import blog from './blog.JPG';
+import swagger from './swagger.JPG';
 
 const Projects = () => (
   <div id="projects">
@@ -19,6 +20,58 @@ const Projects = () => (
         <span className="change-text-color">Projects</span>
       </h1>
       <ul className="projects-ul-container">
+        <li className="project-list">
+          <img src={swagger} className="project-img" alt="Project" />
+          <div className="project-content">
+            <p className="build-with">Build with:</p>
+            <ul className="listed-items">
+              <li className="build-icons">
+                <DiRuby />
+                <p>Ruby</p>
+              </li>
+              <li className="build-icons">
+                <SiRubyonrails />
+                <p>Ruby on Rails</p>
+              </li>
+              <li className="build-icons">
+                <DiPostgresql />
+                <p>PostgreSQL</p>
+              </li>
+            </ul>
+            <p className="functionality">Functionality:</p>
+            <ul className="listed-items circle">
+              <li>Api for gift cards</li>
+              <li>Each brand has many products</li>
+              <li>Each product has many gift cards</li>
+              <li>A card can be issued</li>
+            </ul>
+            <ul className="project-social">
+              <li>
+                <div className="github">
+                  <p className="change-text-color">GitHub:</p>
+                  <a
+                    className="social-links"
+                    href="https://github.com/PolinaStamenova/gift-cards"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <AiFillGithub className="social-media-icons social-links" />
+                  </a>
+                </div>
+              </li>
+              <li>
+                <a
+                  className="social-links"
+                  href="https://shrouded-retreat-44326.herokuapp.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Live Demo
+                </a>
+              </li>
+            </ul>
+          </div>
+        </li>
         <li className="project-list">
           <img src={recipe} className="project-img" alt="Project" />
           <div className="project-content">
